@@ -9,7 +9,7 @@ services:
       - PGID=100
       - TZ=Europe/Rome
     volumes:
-      - /docker/config/emby:/config
+      - /.docker/config/emby:/config
       - /path/to/tvshows:/data/tvshows
       - /path/to/movies:/data/movies
     ports:
